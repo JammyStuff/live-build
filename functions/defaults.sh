@@ -508,6 +508,9 @@ Set_defaults ()
 			;;
 	esac
 
+	# Set build flavour
+	LB_FLAVOUR="${LB_FLAVOUR-}"
+
 	## config/binary
 
 	# Setting image filesystem
